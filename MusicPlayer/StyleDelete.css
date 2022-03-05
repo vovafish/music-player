@@ -1,0 +1,33 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+}
+.form-delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delete-button {
+    margin-top: 20px;
+}
+.btn {
+    padding: 4px 20px;
+}
+.btnYes {
+    margin-right: 10px;
+}
+.main-img {
+    margin-top: 80px;
+}
+.img {
+    width: 400px
+}
+.delete-error {
+    position: fixed;
+    margin-top: 110px;
+}

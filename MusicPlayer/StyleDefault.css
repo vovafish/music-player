@@ -1,0 +1,88 @@
+﻿body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    /* mb change px to rem */
+}
+.container {
+    margin: auto;
+    width: 95%;
+    
+}
+.container:nth-child(1) {
+    margin-top: 0;
+}
+.form-default {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.music-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*margin-top: 40px*/
+}
+.music-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px
+    
+}
+.music-content--output {
+    display: flex;
+    flex-direction: column;
+}
+.music-search--btn {
+    margin-top: 10px;
+}
+.music-copyright {
+    
+    display: flex;
+    flex-direction: column;
+}
+.btn-functionality {
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    height: 400px;
+    width: 400px;
+}
+.btn {
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 20px;
+}
+.btn:hover {
+
+}
+.copyright {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 0
+    
+}
+.holder {
+    width: fit-content;
+}
+.error {
+    margin-top: 20px;
+}
+.btnAdd, .btnEdit, .btnDelete {
+    margin-top:5px;
+}
+.btnAdd:nth-child(1) {
+    margin-top: 0;
+}
+.restriction {
+    margin-top: 0;
+}
+.logo {
+    width: 100px;
+
+}
